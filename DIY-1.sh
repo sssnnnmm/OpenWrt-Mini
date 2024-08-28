@@ -3,7 +3,7 @@
 
 
 # 1-添加ShadowSocksR Plus+插件
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 2-添加PowerOff关机插件
 git clone https://github.com/TraderWukong/luci-app-poweroff.git package/luci-app-poweroff
